@@ -13,18 +13,21 @@
 
         <h1 id="header"><strong>To-Do List</strong></h1>
 
-        <div class="adding_list">
+        <form class="adding_list">
 
-            <input id="add_input" type="name"  placeholder="Add to the list">
-            <button id="add" minlength="1" type="button" value="adding_list">Add</Button>
-            
-            <ul class="list">
+            <input id="add_input" type="text"  placeholder="Add to the list">
+            <button id="add" minlength="1" type="button" onclick=buttonpressed()>Add</Button>
+            <div id=""feedback></div>
+        </form>
 
-            </ul>
-        
+        <ul class="list">
+            <!-- <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li> -->
 
-        </div>
-
+        </ul>
     </div>
     <script src="script.js"></script>
 </body>

@@ -3,7 +3,7 @@
 
 body{
     display: flex;
-    height: 400px;
+    height: 300px;
     /* max-width: 600px; */
     background-color: rgb(235, 230, 230);
     justify-content: center;
@@ -16,14 +16,15 @@ body{
     max-width: 600px;  
 }
 h1{
+    display: flex;
     text-align: center;
     margin-bottom: 1px;
 }
-#header{
+/* #header{
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    justify-content:center; 
+    align-items: center; 
+} */
 .adding_list{
     display:flex;   
     justify-content: center;
@@ -43,13 +44,19 @@ h1{
 }
 #add:hover{transform: scale(1.1);}
 
-.list{
+/* .list{
     font-family: Arial, Helvetica, sans-serif;
-}
+    
+    
+} */
 .list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     cursor: pointer;
     flex-wrap: wrap;
     margin-bottom: 5px;
+    display: list-item;
 }
 .list li.completed{
     text-decoration: line-through;
